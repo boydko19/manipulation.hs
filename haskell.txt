@@ -1,0 +1,2 @@
+oddEvens word num = if num `mod` 2 == 0 then word else reverse word
+stringsList words = [ oddEven (words !! i) i | i <- [0..(length words - 1)] ]
